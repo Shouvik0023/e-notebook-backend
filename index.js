@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.listen(port,()=>{
 
-    console.log("app running on localhost "+ port);
+    console.log("e-notebook backend running on http://localhost:"+ port);
 })
 
 //Available routes
